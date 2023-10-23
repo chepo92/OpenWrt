@@ -47,6 +47,11 @@ binutils bzip2 diff find flex gawk gcc-6+ getopt grep install libc-dev libz-dev
 make4.1+ perl python3.6+ rsync subversion unzip which
 ```
 
+### Docker Build Environment 
+You can build openWrt in a docker container, follow instructions in https://github.com/mwarning/docker-openwrt-build-env.
+
+Note: Clone and use this repo and WB01 branch if your are building for Creality box target
+
 ### Quickstart
 
 1. Run `./scripts/feeds update -a` to obtain all the latest package definitions
